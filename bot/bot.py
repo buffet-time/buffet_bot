@@ -51,7 +51,6 @@ while True:
         while True:
             counter += 1
             sleep(.5)
-            print(counter)
             if counter == counterMax:
                 soc.send("PRIVMSG #buffet_time :thatfeelwhenyoupickupadoublebarrelandCREAM\n".encode("utf-8"))
                 counter = 0
